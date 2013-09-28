@@ -21,6 +21,7 @@
 		049A085B17F6A28600DD8F8B /* StoreSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A085A17F6A28600DD8F8B /* StoreSearchTests.m */; };
 		049A086717F6A2F600DD8F8B /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A086517F6A2F600DD8F8B /* SearchViewController.m */; };
 		049A086817F6A2F600DD8F8B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049A086617F6A2F600DD8F8B /* SearchViewController.xib */; };
+		049A086B17F6AC0A00DD8F8B /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A086A17F6AC0A00DD8F8B /* SearchResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		049A086417F6A2F600DD8F8B /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		049A086517F6A2F600DD8F8B /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		049A086617F6A2F600DD8F8B /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		049A086917F6AC0A00DD8F8B /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		049A086A17F6AC0A00DD8F8B /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				049A086417F6A2F600DD8F8B /* SearchViewController.h */,
 				049A086517F6A2F600DD8F8B /* SearchViewController.m */,
 				049A086617F6A2F600DD8F8B /* SearchViewController.xib */,
+				049A086917F6AC0A00DD8F8B /* SearchResult.h */,
+				049A086A17F6AC0A00DD8F8B /* SearchResult.m */,
 				049A084717F6A28600DD8F8B /* Images.xcassets */,
 				049A083C17F6A28600DD8F8B /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			files = (
 				049A084617F6A28600DD8F8B /* AppDelegate.m in Sources */,
 				049A086717F6A2F600DD8F8B /* SearchViewController.m in Sources */,
+				049A086B17F6AC0A00DD8F8B /* SearchResult.m in Sources */,
 				049A084217F6A28600DD8F8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
