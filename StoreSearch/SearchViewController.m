@@ -51,7 +51,7 @@ static NSString *const NothingFoundCellIdentifier = @"NothingFoundCell";
     
     self.tableView.rowHeight = 80;
     
-    
+    [self.searchBar becomeFirstResponder];
     
 }
 

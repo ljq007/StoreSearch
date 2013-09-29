@@ -12,8 +12,14 @@
 
 @implementation AppDelegate
 
+- (void)customizeAppearance
+{
+    UIImage *barImage = [UIImage imageNamed:@"BarTexture"];//有点问题
+    [[UISearchBar appearance] setBackgroundImage:barImage]; }
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self customizeAppearance];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
