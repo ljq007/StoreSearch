@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04820BFF17F7BF58008274F3 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820BFE17F7BF58008274F3 /* SearchResultCell.m */; };
 		04820C0117F7C52D008274F3 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04820C0017F7C52D008274F3 /* NothingFoundCell.xib */; };
+		04820C0317F84D3D008274F3 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04820C0217F84D3D008274F3 /* LoadingCell.xib */; };
 		049A083617F6A28600DD8F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A083517F6A28600DD8F8B /* Foundation.framework */; };
 		049A083817F6A28600DD8F8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A083717F6A28600DD8F8B /* CoreGraphics.framework */; };
 		049A083A17F6A28600DD8F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A083917F6A28600DD8F8B /* UIKit.framework */; };
@@ -56,6 +57,7 @@
 		04820BFD17F7BF58008274F3 /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
 		04820BFE17F7BF58008274F3 /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
 		04820C0017F7C52D008274F3 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		04820C0217F84D3D008274F3 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		049A083217F6A28600DD8F8B /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049A083517F6A28600DD8F8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		049A083717F6A28600DD8F8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +166,7 @@
 				04820BFE17F7BF58008274F3 /* SearchResultCell.m */,
 				049A089E17F6B86700DD8F8B /* SearchResultCell.xib */,
 				04820C0017F7C52D008274F3 /* NothingFoundCell.xib */,
+				04820C0217F84D3D008274F3 /* LoadingCell.xib */,
 				049A084717F6A28600DD8F8B /* Images.xcassets */,
 				049A083C17F6A28600DD8F8B /* Supporting Files */,
 			);
@@ -310,6 +313,7 @@
 				049A089017F6B80500DD8F8B /* BarTexture@2x.png in Resources */,
 				049A089117F6B80500DD8F8B /* CloseButton.png in Resources */,
 				04820C0117F7C52D008274F3 /* NothingFoundCell.xib in Resources */,
+				04820C0317F84D3D008274F3 /* LoadingCell.xib in Resources */,
 				049A089517F6B80500DD8F8B /* LandscapeBackground.png in Resources */,
 				049A089817F6B80500DD8F8B /* Placeholder.png in Resources */,
 				049A084817F6A28600DD8F8B /* Images.xcassets in Resources */,
